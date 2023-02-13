@@ -64,19 +64,32 @@
       </div>
       <!-- End Contact -->
       <!-- Contact Form -->
-      <div class="container-fluid contact-form">
-         <div class="row">
-            <div class="col-md-10 offset-md-1 col-sm-12">
-               <h2> Shall we call you? Give us your number </h2>
-               <form class="form-inline pt-5">
-                  <div class="form-group mb-2">
-                     <input type="phone" class="form-control" id="inputPhone" placeholder="Your phone number">
-                  </div>
-                  <button type="submit" class="mx-sm-4 btn btn-primary mb-2">SUBMIT</button>
-               </form>
-            </div>
-         </div>
       </div>
+      <div>
+         <form action="https://formspree.io/f/xwkjlwzl" method="POST">
+         <label>
+            Your email:
+            <input type="email" name="email">
+            </label>
+            <label>
+               Your message:
+               <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <div class="container-fluid contact-form">
+               <div class="row">
+                  <div class="col-md-10 offset-md-1 col-sm-12">
+                     <h2> Shall we call you? Give us your number </h2>
+                     <form class="form-inline pt-5">
+                        <div class="form-group mb-2">
+                           <input type="phone" class="form-control" id="inputPhone" placeholder="Your phone number">
+                        </div>
+                        <button type="submit" class="mx-sm-4 btn btn-primary mb-2">SUBMIT</button>
+                     </form>
+                  </div>
+               </div>
+  <button type="submit">Send</button>
+</form>
       <!-- End Contact Form -->
       <!-- Javascript -->
       <script src="vendor/jquery.min.js"></script>
