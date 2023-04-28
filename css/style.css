@@ -519,8 +519,8 @@ p {
 }
 
 .site-footer h6{
-  color:#fff;
-  font-size:16px;
+  color:#000;
+  font-size:20px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
@@ -528,6 +528,7 @@ p {
 
 .site-footer a{
   color:#000;
+  text-transform:uppercase;
 }
 
 .site-footer a:hover{
