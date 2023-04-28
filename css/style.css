@@ -515,7 +515,7 @@ p {
 }
 
 .site-footer hr.small{
-  margin:12px 0
+  margin:20px 0
 }
 
 .site-footer h6{
@@ -565,6 +565,7 @@ p {
 
 .copyright-text{
   margin:0
+  font-size:12px;
 }
 
 @media (max-width:991px){
