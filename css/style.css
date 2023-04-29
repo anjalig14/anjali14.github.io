@@ -361,7 +361,7 @@ p {
 }
 
 .RightContent {
-	overflow: auto;
+	padding: 0;
 }
 
 @media (min-width: 1200px) {
