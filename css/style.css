@@ -503,7 +503,7 @@ p {
 
 .site-footer{
   background-color:#e9e8e6;
-  position: relative;
+  position: fixed;
   padding:45px 0 20px;
   font-size:15px;
   line-height:10px;
