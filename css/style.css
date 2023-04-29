@@ -361,7 +361,7 @@ p {
 }
 
 .RightContent {
-	padding: 0;
+	overflow: auto;
 }
 
 @media (min-width: 1200px) {
@@ -375,6 +375,7 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
+	padding: 0;
 }
 
 .background-1 {
